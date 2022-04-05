@@ -11,6 +11,7 @@
     <router-link to="/computed">Computed</router-link> | 
     <router-link to="/watch">Watch</router-link> | 
     <router-link to="/emit">Emit</router-link> | 
+    <router-link to="/composable">Composable</router-link> | 
   </div>
   <router-view/>
 </template>
