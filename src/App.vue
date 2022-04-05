@@ -6,6 +6,7 @@
     <router-link to="/props">Props</router-link> | 
     <router-link to="/class">Class</router-link> | 
     <router-link to="/slot">Slot</router-link> | 
+    <router-link to="/teleport">Teleport</router-link> | 
   </div>
   <router-view/>
 </template>
