@@ -12,6 +12,7 @@
     <router-link to="/watch">Watch</router-link> | 
     <router-link to="/emit">Emit</router-link> | 
     <router-link to="/composable">Composable</router-link> | 
+    <router-link to="/torefs">toRefs</router-link> | 
   </div>
   <router-view/>
 </template>

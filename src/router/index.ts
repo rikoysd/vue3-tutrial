@@ -110,6 +110,15 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/composable/Composable.vue"),
   },
+  {
+    path: "/torefs",
+    name: "toRefs",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/toRefs/ToRefs.vue"),
+  },
 ];
 
 const router = createRouter({
