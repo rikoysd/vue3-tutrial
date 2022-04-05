@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2>reactiveの使い方</h2>
-    <p>refと同じだが、reactiveは.valueを書かなくてよい</p>
-    <p>ことがメリット。ただし、オブジェクトしか引数を取れない。</p>
+    <h1>reactiveの使い方</h1>
+    <p>refと同じだが、reactiveは</p>
+    <p>.valueを書かなくてよいことがメリット。ただし、オブジェクトしか引数を取れない。</p>
     <button v-on:click="onClick">alert()で確認</button>
   </div>
 </template>

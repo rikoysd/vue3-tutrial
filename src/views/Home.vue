@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Welcome to Vue3.0</h1>
+    <h1>\ Welcome to Vue3.0 Tutrial /</h1>
     <p>上のリンクのページからVue3の機能を試すことができます。</p>
     <p>ブラウザ画面とviewsフォルダを確認してみてください。</p>
     <br />
