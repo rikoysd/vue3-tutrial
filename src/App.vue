@@ -10,6 +10,7 @@
     <router-link to="/reactive">Reactive</router-link> | 
     <router-link to="/computed">Computed</router-link> | 
     <router-link to="/watch">Watch</router-link> | 
+    <router-link to="/emit">Emit</router-link> | 
   </div>
   <router-view/>
 </template>
