@@ -11,7 +11,9 @@ export default defineComponent({
   //propsの型の指定方法とpropsの受け取り方法
   props: {
     word: {
+      //falseにすると、親コンポーネントから渡さなくてもよい状態になる。
       required: true,
+      //typeで指定できる型は大文字。'S'tring。引用サイト: https://prograshi.com/language/vue-js/validators-for-props/
       type: String as PropType<string>
     }
   },

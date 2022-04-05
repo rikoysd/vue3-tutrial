@@ -4,6 +4,7 @@
     <router-link to="/multipleRoot">MultipleRoot</router-link> | 
     <router-link to="/component">Component</router-link> | 
     <router-link to="/props">Props</router-link> | 
+    <router-link to="/class">Class</router-link> | 
   </div>
   <router-view/>
 </template>
