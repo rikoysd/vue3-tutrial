@@ -9,6 +9,7 @@
     <router-link to="/teleport">Teleport</router-link> | 
     <router-link to="/reactive">Reactive</router-link> | 
     <router-link to="/computed">Computed</router-link> | 
+    <router-link to="/watch">Watch</router-link> | 
   </div>
   <router-view/>
 </template>
