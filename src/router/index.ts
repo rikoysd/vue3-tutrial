@@ -22,7 +22,15 @@ const routes: Array<RouteRecordRaw> = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/component/Component.vue')
-  }
+  },
+  {
+    path: '/props',
+    name: 'Props',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/props/Props.vue')
+  },
 ]
 
 const router = createRouter({

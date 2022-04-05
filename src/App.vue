@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/multipleRoot">MultipleRoot</router-link> | 
     <router-link to="/component">Component</router-link> | 
+    <router-link to="/props">Props</router-link> | 
   </div>
   <router-view/>
 </template>
